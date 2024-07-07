@@ -1,7 +1,5 @@
-package com.example.application.security;
+package com.cms.application.security;
 
-import com.example.application.data.User;
-import com.example.application.data.UserRepository;
 import java.util.List;
 import java.util.stream.Collectors;
 import org.springframework.security.core.GrantedAuthority;
@@ -11,6 +9,9 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+
+import com.cms.application.data.User;
+import com.cms.application.data.UserRepository;
 
 @Service
 public class UserDetailsServiceImpl implements UserDetailsService {

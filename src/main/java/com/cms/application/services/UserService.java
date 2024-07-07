@@ -1,12 +1,13 @@
-package com.example.application.services;
+package com.cms.application.services;
 
-import com.example.application.data.User;
-import com.example.application.data.UserRepository;
 import java.util.Optional;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Service;
+
+import com.cms.application.data.User;
+import com.cms.application.data.UserRepository;
 
 @Service
 public class UserService {
